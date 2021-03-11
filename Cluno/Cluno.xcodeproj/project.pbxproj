@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500C9E3025FA4B18003C0EC6 /* OfferDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E2F25FA4B18003C0EC6 /* OfferDetailViewModel.swift */; };
+		500C9E3325FA535D003C0EC6 /* OfferDetailRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E3225FA535D003C0EC6 /* OfferDetailRowViewModel.swift */; };
 		5078234025F9376D0003B794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078233F25F9376D0003B794 /* AppDelegate.swift */; };
 		5078234225F9376D0003B794 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078234125F9376D0003B794 /* SceneDelegate.swift */; };
-		5078234425F9376D0003B794 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078234325F9376D0003B794 /* ContentView.swift */; };
+		5078234425F9376D0003B794 /* OfferPortfolioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078234325F9376D0003B794 /* OfferPortfolioListView.swift */; };
 		5078234625F9376E0003B794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5078234525F9376E0003B794 /* Assets.xcassets */; };
 		5078234925F9376E0003B794 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5078234825F9376E0003B794 /* Preview Assets.xcassets */; };
 		5078234C25F9376E0003B794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5078234A25F9376E0003B794 /* LaunchScreen.storyboard */; };
+		5078235525F9391B0003B794 /* OfferPortfolioRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078235425F9391B0003B794 /* OfferPortfolioRowView.swift */; };
+		5078235925F93A7D0003B794 /* OfferModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078235825F93A7D0003B794 /* OfferModel.swift */; };
+		5078236025F93C1C0003B794 /* OfferWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078235D25F93C1C0003B794 /* OfferWebService.swift */; };
+		5078236125F93C1C0003B794 /* Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078235E25F93C1C0003B794 /* Parsing.swift */; };
+		5078236225F93C1C0003B794 /* OfferError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078235F25F93C1C0003B794 /* OfferError.swift */; };
+		50867AF525F93DEB00144F65 /* OfferPortfolioListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50867AF425F93DEB00144F65 /* OfferPortfolioListViewModel.swift */; };
+		50867AF925F97AB700144F65 /* OfferPortfolioRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50867AF825F97AB700144F65 /* OfferPortfolioRowViewModel.swift */; };
+		50D7E4EC25FA49FD005F3853 /* OfferDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D7E4EB25FA49FD005F3853 /* OfferDetailView.swift */; };
+		70F2DE39EC6F5345B6D8BC13 /* Pods_Cluno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D31F9FF4D285DB92BDA32AD /* Pods_Cluno.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17F98B2D12C49ACBF50131AD /* Pods-Cluno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cluno.release.xcconfig"; path = "Target Support Files/Pods-Cluno/Pods-Cluno.release.xcconfig"; sourceTree = "<group>"; };
+		1F8340647C279F5FE62219A7 /* Pods-Cluno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cluno.debug.xcconfig"; path = "Target Support Files/Pods-Cluno/Pods-Cluno.debug.xcconfig"; sourceTree = "<group>"; };
+		500C9E2F25FA4B18003C0EC6 /* OfferDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailViewModel.swift; sourceTree = "<group>"; };
+		500C9E3225FA535D003C0EC6 /* OfferDetailRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailRowViewModel.swift; sourceTree = "<group>"; };
 		5078233C25F9376D0003B794 /* Cluno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cluno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5078233F25F9376D0003B794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5078234125F9376D0003B794 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5078234325F9376D0003B794 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5078234325F9376D0003B794 /* OfferPortfolioListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioListView.swift; sourceTree = "<group>"; };
 		5078234525F9376E0003B794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5078234825F9376E0003B794 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5078234B25F9376E0003B794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5078234D25F9376E0003B794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5078235425F9391B0003B794 /* OfferPortfolioRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioRowView.swift; sourceTree = "<group>"; };
+		5078235825F93A7D0003B794 /* OfferModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferModel.swift; sourceTree = "<group>"; };
+		5078235D25F93C1C0003B794 /* OfferWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferWebService.swift; sourceTree = "<group>"; };
+		5078235E25F93C1C0003B794 /* Parsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parsing.swift; sourceTree = "<group>"; };
+		5078235F25F93C1C0003B794 /* OfferError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferError.swift; sourceTree = "<group>"; };
+		50867AF425F93DEB00144F65 /* OfferPortfolioListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioListViewModel.swift; sourceTree = "<group>"; };
+		50867AF825F97AB700144F65 /* OfferPortfolioRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioRowViewModel.swift; sourceTree = "<group>"; };
+		50D7E4EB25FA49FD005F3853 /* OfferDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailView.swift; sourceTree = "<group>"; };
+		5D31F9FF4D285DB92BDA32AD /* Pods_Cluno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cluno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F2DE39EC6F5345B6D8BC13 /* Pods_Cluno.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				5078233E25F9376D0003B794 /* Cluno */,
 				5078233D25F9376D0003B794 /* Products */,
+				E76F57722CF4B09B328E7DCA /* Pods */,
+				84EC223097ECC6CE0138B1DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +83,12 @@
 		5078233E25F9376D0003B794 /* Cluno */ = {
 			isa = PBXGroup;
 			children = (
+				50D7E4EA25FA49C6005F3853 /* Offer Detail */,
+				5078236425F93C630003B794 /* Offer Portfolio */,
+				5078235C25F93BA20003B794 /* Services */,
+				5078235725F93A640003B794 /* Model */,
 				5078233F25F9376D0003B794 /* AppDelegate.swift */,
 				5078234125F9376D0003B794 /* SceneDelegate.swift */,
-				5078234325F9376D0003B794 /* ContentView.swift */,
 				5078234525F9376E0003B794 /* Assets.xcassets */,
 				5078234A25F9376E0003B794 /* LaunchScreen.storyboard */,
 				5078234D25F9376E0003B794 /* Info.plist */,
@@ -75,6 +105,62 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5078235725F93A640003B794 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5078235825F93A7D0003B794 /* OfferModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5078235C25F93BA20003B794 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5078235F25F93C1C0003B794 /* OfferError.swift */,
+				5078235D25F93C1C0003B794 /* OfferWebService.swift */,
+				5078235E25F93C1C0003B794 /* Parsing.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5078236425F93C630003B794 /* Offer Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				5078234325F9376D0003B794 /* OfferPortfolioListView.swift */,
+				50867AF425F93DEB00144F65 /* OfferPortfolioListViewModel.swift */,
+				5078235425F9391B0003B794 /* OfferPortfolioRowView.swift */,
+				50867AF825F97AB700144F65 /* OfferPortfolioRowViewModel.swift */,
+			);
+			path = "Offer Portfolio";
+			sourceTree = "<group>";
+		};
+		50D7E4EA25FA49C6005F3853 /* Offer Detail */ = {
+			isa = PBXGroup;
+			children = (
+				50D7E4EB25FA49FD005F3853 /* OfferDetailView.swift */,
+				500C9E2F25FA4B18003C0EC6 /* OfferDetailViewModel.swift */,
+				500C9E3225FA535D003C0EC6 /* OfferDetailRowViewModel.swift */,
+			);
+			path = "Offer Detail";
+			sourceTree = "<group>";
+		};
+		84EC223097ECC6CE0138B1DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D31F9FF4D285DB92BDA32AD /* Pods_Cluno.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E76F57722CF4B09B328E7DCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F8340647C279F5FE62219A7 /* Pods-Cluno.debug.xcconfig */,
+				17F98B2D12C49ACBF50131AD /* Pods-Cluno.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5078235025F9376E0003B794 /* Build configuration list for PBXNativeTarget "Cluno" */;
 			buildPhases = (
+				EAA0DEE57540ABE2EAE6E0EE /* [CP] Check Pods Manifest.lock */,
 				5078233825F9376D0003B794 /* Sources */,
 				5078233925F9376D0003B794 /* Frameworks */,
 				5078233A25F9376D0003B794 /* Resources */,
+				23986B761D31B2FD11F8884F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,14 +228,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23986B761D31B2FD11F8884F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cluno/Pods-Cluno-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cluno/Pods-Cluno-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cluno/Pods-Cluno-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA0DEE57540ABE2EAE6E0EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cluno-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5078233825F9376D0003B794 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D7E4EC25FA49FD005F3853 /* OfferDetailView.swift in Sources */,
+				50867AF925F97AB700144F65 /* OfferPortfolioRowViewModel.swift in Sources */,
+				5078236125F93C1C0003B794 /* Parsing.swift in Sources */,
 				5078234025F9376D0003B794 /* AppDelegate.swift in Sources */,
+				50867AF525F93DEB00144F65 /* OfferPortfolioListViewModel.swift in Sources */,
 				5078234225F9376D0003B794 /* SceneDelegate.swift in Sources */,
-				5078234425F9376D0003B794 /* ContentView.swift in Sources */,
+				5078235925F93A7D0003B794 /* OfferModel.swift in Sources */,
+				5078236025F93C1C0003B794 /* OfferWebService.swift in Sources */,
+				5078235525F9391B0003B794 /* OfferPortfolioRowView.swift in Sources */,
+				5078234425F9376D0003B794 /* OfferPortfolioListView.swift in Sources */,
+				500C9E3025FA4B18003C0EC6 /* OfferDetailViewModel.swift in Sources */,
+				5078236225F93C1C0003B794 /* OfferError.swift in Sources */,
+				500C9E3325FA535D003C0EC6 /* OfferDetailRowViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +423,7 @@
 		};
 		5078235125F9376E0003B794 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8340647C279F5FE62219A7 /* Pods-Cluno.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +445,7 @@
 		};
 		5078235225F9376E0003B794 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F98B2D12C49ACBF50131AD /* Pods-Cluno.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
