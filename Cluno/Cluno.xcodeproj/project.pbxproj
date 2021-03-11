@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		500C9E3025FA4B18003C0EC6 /* OfferDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E2F25FA4B18003C0EC6 /* OfferDetailViewModel.swift */; };
-		500C9E3325FA535D003C0EC6 /* OfferDetailRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E3225FA535D003C0EC6 /* OfferDetailRowViewModel.swift */; };
+		500C9E3325FA535D003C0EC6 /* OfferDetailImagesRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E3225FA535D003C0EC6 /* OfferDetailImagesRowViewModel.swift */; };
+		500C9E3625FA6168003C0EC6 /* OfferDetailImagesRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E3525FA6168003C0EC6 /* OfferDetailImagesRowView.swift */; };
+		5076AFBB25FA822E00E49C17 /* OfferDetailMainRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFBA25FA822E00E49C17 /* OfferDetailMainRowViewModel.swift */; };
+		5076AFBE25FA824D00E49C17 /* OfferDetailPriceRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFBD25FA824D00E49C17 /* OfferDetailPriceRowViewModel.swift */; };
+		5076AFC125FA834300E49C17 /* OfferDetailMainRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFC025FA834300E49C17 /* OfferDetailMainRowView.swift */; };
+		5076AFC625FA9C5800E49C17 /* OfferDetailPriceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFC525FA9C5800E49C17 /* OfferDetailPriceRowView.swift */; };
 		5078234025F9376D0003B794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078233F25F9376D0003B794 /* AppDelegate.swift */; };
 		5078234225F9376D0003B794 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078234125F9376D0003B794 /* SceneDelegate.swift */; };
 		5078234425F9376D0003B794 /* OfferPortfolioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078234325F9376D0003B794 /* OfferPortfolioListView.swift */; };
@@ -30,7 +35,12 @@
 		17F98B2D12C49ACBF50131AD /* Pods-Cluno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cluno.release.xcconfig"; path = "Target Support Files/Pods-Cluno/Pods-Cluno.release.xcconfig"; sourceTree = "<group>"; };
 		1F8340647C279F5FE62219A7 /* Pods-Cluno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cluno.debug.xcconfig"; path = "Target Support Files/Pods-Cluno/Pods-Cluno.debug.xcconfig"; sourceTree = "<group>"; };
 		500C9E2F25FA4B18003C0EC6 /* OfferDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailViewModel.swift; sourceTree = "<group>"; };
-		500C9E3225FA535D003C0EC6 /* OfferDetailRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailRowViewModel.swift; sourceTree = "<group>"; };
+		500C9E3225FA535D003C0EC6 /* OfferDetailImagesRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailImagesRowViewModel.swift; sourceTree = "<group>"; };
+		500C9E3525FA6168003C0EC6 /* OfferDetailImagesRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailImagesRowView.swift; sourceTree = "<group>"; };
+		5076AFBA25FA822E00E49C17 /* OfferDetailMainRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailMainRowViewModel.swift; sourceTree = "<group>"; };
+		5076AFBD25FA824D00E49C17 /* OfferDetailPriceRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailPriceRowViewModel.swift; sourceTree = "<group>"; };
+		5076AFC025FA834300E49C17 /* OfferDetailMainRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailMainRowView.swift; sourceTree = "<group>"; };
+		5076AFC525FA9C5800E49C17 /* OfferDetailPriceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailPriceRowView.swift; sourceTree = "<group>"; };
 		5078233C25F9376D0003B794 /* Cluno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cluno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5078233F25F9376D0003B794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5078234125F9376D0003B794 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,7 +149,12 @@
 			children = (
 				50D7E4EB25FA49FD005F3853 /* OfferDetailView.swift */,
 				500C9E2F25FA4B18003C0EC6 /* OfferDetailViewModel.swift */,
-				500C9E3225FA535D003C0EC6 /* OfferDetailRowViewModel.swift */,
+				500C9E3525FA6168003C0EC6 /* OfferDetailImagesRowView.swift */,
+				500C9E3225FA535D003C0EC6 /* OfferDetailImagesRowViewModel.swift */,
+				5076AFC025FA834300E49C17 /* OfferDetailMainRowView.swift */,
+				5076AFBA25FA822E00E49C17 /* OfferDetailMainRowViewModel.swift */,
+				5076AFC525FA9C5800E49C17 /* OfferDetailPriceRowView.swift */,
+				5076AFBD25FA824D00E49C17 /* OfferDetailPriceRowViewModel.swift */,
 			);
 			path = "Offer Detail";
 			sourceTree = "<group>";
@@ -276,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50D7E4EC25FA49FD005F3853 /* OfferDetailView.swift in Sources */,
+				5076AFC625FA9C5800E49C17 /* OfferDetailPriceRowView.swift in Sources */,
 				50867AF925F97AB700144F65 /* OfferPortfolioRowViewModel.swift in Sources */,
 				5078236125F93C1C0003B794 /* Parsing.swift in Sources */,
 				5078234025F9376D0003B794 /* AppDelegate.swift in Sources */,
@@ -287,7 +303,11 @@
 				5078234425F9376D0003B794 /* OfferPortfolioListView.swift in Sources */,
 				500C9E3025FA4B18003C0EC6 /* OfferDetailViewModel.swift in Sources */,
 				5078236225F93C1C0003B794 /* OfferError.swift in Sources */,
-				500C9E3325FA535D003C0EC6 /* OfferDetailRowViewModel.swift in Sources */,
+				5076AFBB25FA822E00E49C17 /* OfferDetailMainRowViewModel.swift in Sources */,
+				5076AFBE25FA824D00E49C17 /* OfferDetailPriceRowViewModel.swift in Sources */,
+				500C9E3325FA535D003C0EC6 /* OfferDetailImagesRowViewModel.swift in Sources */,
+				500C9E3625FA6168003C0EC6 /* OfferDetailImagesRowView.swift in Sources */,
+				5076AFC125FA834300E49C17 /* OfferDetailMainRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,20 +16,26 @@ struct OfferPortfolioListView: View {
     
     var body: some View {
         NavigationView{
-            List() {
-                ForEach(viewModel.offerPortfolios) { offerPortfolio in
-                    let offerDetailViewModel = OfferDetailViewModel(offerId: offerPortfolio.id)
-                    NavigationLink(destination: OfferDetailView(viewModel: offerDetailViewModel)) {
-                        OfferPortfolioRowView(viewModel: offerPortfolio)
-                            .listRowInsets(EdgeInsets())
-                            .background(Color(.systemBackground))
+            ScrollView {
+                LazyVStack{
+                    ForEach(viewModel.offerPortfolios) { offerPortfolio in
+                        ZStack{
+                            let offerDetailViewModel = OfferDetailViewModel(offerId: offerPortfolio.id)
+                            NavigationLink(destination: OfferDetailView(viewModel: offerDetailViewModel)) {
+                                OfferPortfolioRowView(viewModel: offerPortfolio)
+                                    .shadow(radius: 3)
+                            }
+                            .buttonStyle(PlainButtonStyle())
+                        }
                     }
                 }
             }
             .navigationBarTitle("Cluno", displayMode: .inline)
-            .padding(.top, 8)
         }
-        .onAppear(perform: viewModel.fetchOfferPortfolios)
+        .accentColor(Color("MyPink"))
+        .onAppear() {
+            viewModel.fetchOfferPortfolios()
+        }
     }
 }
 

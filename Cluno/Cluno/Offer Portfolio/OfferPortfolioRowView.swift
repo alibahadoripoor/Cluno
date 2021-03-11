@@ -26,22 +26,18 @@ struct OfferPortfolioRowView: View {
                 .padding([.leading, .trailing])
                 .lineLimit(1)
             HStack {
-                Text("ab")
-                    .font(.title3)
                 Text(viewModel.price)
                     .font(.title3)
                     .bold()
-                    .foregroundColor(.purple)
+                    .foregroundColor(Color("MyPink"))
                 Text("pro Monat")
                     .font(.title3)
             }
                 .padding([.leading, .bottom, .leading])
         }
-        .background(Color(.secondarySystemBackground))
+        .background(Color(.systemGray5))
         .cornerRadius(10)
-        .shadow(radius: 3)
-        .padding([.top, .bottom], 8)
-        .padding([.leading, .trailing], 16)
+        .padding([.top, .leading, .trailing])
     }
 }
 

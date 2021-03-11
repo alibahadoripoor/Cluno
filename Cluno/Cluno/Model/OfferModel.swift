@@ -24,10 +24,10 @@ struct OfferDetail: Decodable {
     let estimatedDeliveryTime: String
     let car: Car
     let images: [CarImage]
-    let price: Price
+    let pricing: Price
     
     struct CarImage: Decodable {
-        let scr: String
+        let src: String
     }
 }
 

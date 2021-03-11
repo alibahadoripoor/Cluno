@@ -17,6 +17,6 @@ struct OfferPortfolioRowViewModel: Identifiable {
         self.id = offerPortfolio.id
         self.imageURL = URL(string: offerPortfolio.teaser.teaserImage)
         self.title = offerPortfolio.car.make + " " + offerPortfolio.car.model + " " + offerPortfolio.car.version
-        self.price = "\(offerPortfolio.pricing.lowestPrice)"
+        self.price = "ab \(offerPortfolio.pricing.lowestPrice) \(offerPortfolio.pricing.currencySymbol)"
     }
 }
