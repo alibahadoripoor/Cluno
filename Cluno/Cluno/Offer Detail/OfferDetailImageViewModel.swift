@@ -1,5 +1,5 @@
 //
-//  OfferDetailImagesRowViewModel.swift
+//  OfferDetailImageViewModel.swift
 //  Cluno
 //
 //  Created by Mohammadali Bahadoripoor on 11.03.21.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct OfferDetailImagesRowViewModel{
+struct OfferDetailImageViewModel{
     var imageURLs: [URL?] = []
     
     init(offerDetail: OfferDetail){

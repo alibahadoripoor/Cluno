@@ -1,5 +1,5 @@
 //
-//  OfferPortfolioListViewModel.swift
+//  OfferPortfolioViewModel.swift
 //  Cluno
 //
 //  Created by Mohammadali Bahadoripoor on 10.03.21.
@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-final class OfferPortfolioListViewModel: ObservableObject {
+final class OfferPortfolioViewModel: ObservableObject {
     @Published var offerPortfolios: [OfferPortfolioRowViewModel] = []
     
     private var webService: OfferPortfolioWebServiceProtocol

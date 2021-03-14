@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		500C9E3025FA4B18003C0EC6 /* OfferDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E2F25FA4B18003C0EC6 /* OfferDetailViewModel.swift */; };
-		500C9E3325FA535D003C0EC6 /* OfferDetailImagesRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E3225FA535D003C0EC6 /* OfferDetailImagesRowViewModel.swift */; };
-		500C9E3625FA6168003C0EC6 /* OfferDetailImagesRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E3525FA6168003C0EC6 /* OfferDetailImagesRowView.swift */; };
-		5076AFBB25FA822E00E49C17 /* OfferDetailMainRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFBA25FA822E00E49C17 /* OfferDetailMainRowViewModel.swift */; };
-		5076AFBE25FA824D00E49C17 /* OfferDetailPriceRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFBD25FA824D00E49C17 /* OfferDetailPriceRowViewModel.swift */; };
-		5076AFC125FA834300E49C17 /* OfferDetailMainRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFC025FA834300E49C17 /* OfferDetailMainRowView.swift */; };
-		5076AFC625FA9C5800E49C17 /* OfferDetailPriceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFC525FA9C5800E49C17 /* OfferDetailPriceRowView.swift */; };
+		500C9E3325FA535D003C0EC6 /* OfferDetailImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E3225FA535D003C0EC6 /* OfferDetailImageViewModel.swift */; };
+		503C963225FE2CC4006CC8B0 /* View + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503C963125FE2CC4006CC8B0 /* View + Extensions.swift */; };
+		5076AFBB25FA822E00E49C17 /* OfferDetailMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFBA25FA822E00E49C17 /* OfferDetailMainViewModel.swift */; };
+		5076AFBE25FA824D00E49C17 /* OfferDetailPriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFBD25FA824D00E49C17 /* OfferDetailPriceViewModel.swift */; };
+		5076AFC625FA9C5800E49C17 /* PriceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFC525FA9C5800E49C17 /* PriceRowView.swift */; };
 		5078234025F9376D0003B794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078233F25F9376D0003B794 /* AppDelegate.swift */; };
 		5078234225F9376D0003B794 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078234125F9376D0003B794 /* SceneDelegate.swift */; };
-		5078234425F9376D0003B794 /* OfferPortfolioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078234325F9376D0003B794 /* OfferPortfolioListView.swift */; };
+		5078234425F9376D0003B794 /* OfferPortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078234325F9376D0003B794 /* OfferPortfolioView.swift */; };
 		5078234625F9376E0003B794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5078234525F9376E0003B794 /* Assets.xcassets */; };
 		5078234925F9376E0003B794 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5078234825F9376E0003B794 /* Preview Assets.xcassets */; };
 		5078234C25F9376E0003B794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5078234A25F9376E0003B794 /* LaunchScreen.storyboard */; };
@@ -25,8 +24,9 @@
 		5078236025F93C1C0003B794 /* OfferWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078235D25F93C1C0003B794 /* OfferWebService.swift */; };
 		5078236125F93C1C0003B794 /* Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078235E25F93C1C0003B794 /* Parsing.swift */; };
 		5078236225F93C1C0003B794 /* OfferError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078235F25F93C1C0003B794 /* OfferError.swift */; };
-		50867AF525F93DEB00144F65 /* OfferPortfolioListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50867AF425F93DEB00144F65 /* OfferPortfolioListViewModel.swift */; };
+		50867AF525F93DEB00144F65 /* OfferPortfolioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50867AF425F93DEB00144F65 /* OfferPortfolioViewModel.swift */; };
 		50867AF925F97AB700144F65 /* OfferPortfolioRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50867AF825F97AB700144F65 /* OfferPortfolioRowViewModel.swift */; };
+		50B3082625FE7D93006E5BF7 /* ImageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B3082525FE7D93006E5BF7 /* ImageRowView.swift */; };
 		50D7E4EC25FA49FD005F3853 /* OfferDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D7E4EB25FA49FD005F3853 /* OfferDetailView.swift */; };
 		70F2DE39EC6F5345B6D8BC13 /* Pods_Cluno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D31F9FF4D285DB92BDA32AD /* Pods_Cluno.framework */; };
 /* End PBXBuildFile section */
@@ -35,16 +35,15 @@
 		17F98B2D12C49ACBF50131AD /* Pods-Cluno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cluno.release.xcconfig"; path = "Target Support Files/Pods-Cluno/Pods-Cluno.release.xcconfig"; sourceTree = "<group>"; };
 		1F8340647C279F5FE62219A7 /* Pods-Cluno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cluno.debug.xcconfig"; path = "Target Support Files/Pods-Cluno/Pods-Cluno.debug.xcconfig"; sourceTree = "<group>"; };
 		500C9E2F25FA4B18003C0EC6 /* OfferDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailViewModel.swift; sourceTree = "<group>"; };
-		500C9E3225FA535D003C0EC6 /* OfferDetailImagesRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailImagesRowViewModel.swift; sourceTree = "<group>"; };
-		500C9E3525FA6168003C0EC6 /* OfferDetailImagesRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailImagesRowView.swift; sourceTree = "<group>"; };
-		5076AFBA25FA822E00E49C17 /* OfferDetailMainRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailMainRowViewModel.swift; sourceTree = "<group>"; };
-		5076AFBD25FA824D00E49C17 /* OfferDetailPriceRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailPriceRowViewModel.swift; sourceTree = "<group>"; };
-		5076AFC025FA834300E49C17 /* OfferDetailMainRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailMainRowView.swift; sourceTree = "<group>"; };
-		5076AFC525FA9C5800E49C17 /* OfferDetailPriceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailPriceRowView.swift; sourceTree = "<group>"; };
+		500C9E3225FA535D003C0EC6 /* OfferDetailImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailImageViewModel.swift; sourceTree = "<group>"; };
+		503C963125FE2CC4006CC8B0 /* View + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extensions.swift"; sourceTree = "<group>"; };
+		5076AFBA25FA822E00E49C17 /* OfferDetailMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailMainViewModel.swift; sourceTree = "<group>"; };
+		5076AFBD25FA824D00E49C17 /* OfferDetailPriceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailPriceViewModel.swift; sourceTree = "<group>"; };
+		5076AFC525FA9C5800E49C17 /* PriceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRowView.swift; sourceTree = "<group>"; };
 		5078233C25F9376D0003B794 /* Cluno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cluno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5078233F25F9376D0003B794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5078234125F9376D0003B794 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5078234325F9376D0003B794 /* OfferPortfolioListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioListView.swift; sourceTree = "<group>"; };
+		5078234325F9376D0003B794 /* OfferPortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioView.swift; sourceTree = "<group>"; };
 		5078234525F9376E0003B794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5078234825F9376E0003B794 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5078234B25F9376E0003B794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,8 +53,9 @@
 		5078235D25F93C1C0003B794 /* OfferWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferWebService.swift; sourceTree = "<group>"; };
 		5078235E25F93C1C0003B794 /* Parsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parsing.swift; sourceTree = "<group>"; };
 		5078235F25F93C1C0003B794 /* OfferError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferError.swift; sourceTree = "<group>"; };
-		50867AF425F93DEB00144F65 /* OfferPortfolioListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioListViewModel.swift; sourceTree = "<group>"; };
+		50867AF425F93DEB00144F65 /* OfferPortfolioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioViewModel.swift; sourceTree = "<group>"; };
 		50867AF825F97AB700144F65 /* OfferPortfolioRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioRowViewModel.swift; sourceTree = "<group>"; };
+		50B3082525FE7D93006E5BF7 /* ImageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRowView.swift; sourceTree = "<group>"; };
 		50D7E4EB25FA49FD005F3853 /* OfferDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailView.swift; sourceTree = "<group>"; };
 		5D31F9FF4D285DB92BDA32AD /* Pods_Cluno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cluno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		503C963025FE2CA5006CC8B0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				503C963125FE2CC4006CC8B0 /* View + Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		5078233325F9376D0003B794 = {
 			isa = PBXGroup;
 			children = (
@@ -93,16 +101,13 @@
 		5078233E25F9376D0003B794 /* Cluno */ = {
 			isa = PBXGroup;
 			children = (
+				50B3082E25FE8172006E5BF7 /* SupportFiles */,
+				50B3082D25FE8160006E5BF7 /* Application */,
+				503C963025FE2CA5006CC8B0 /* Utilities */,
 				50D7E4EA25FA49C6005F3853 /* Offer Detail */,
 				5078236425F93C630003B794 /* Offer Portfolio */,
 				5078235C25F93BA20003B794 /* Services */,
 				5078235725F93A640003B794 /* Model */,
-				5078233F25F9376D0003B794 /* AppDelegate.swift */,
-				5078234125F9376D0003B794 /* SceneDelegate.swift */,
-				5078234525F9376E0003B794 /* Assets.xcassets */,
-				5078234A25F9376E0003B794 /* LaunchScreen.storyboard */,
-				5078234D25F9376E0003B794 /* Info.plist */,
-				5078234725F9376E0003B794 /* Preview Content */,
 			);
 			path = Cluno;
 			sourceTree = "<group>";
@@ -136,12 +141,32 @@
 		5078236425F93C630003B794 /* Offer Portfolio */ = {
 			isa = PBXGroup;
 			children = (
-				5078234325F9376D0003B794 /* OfferPortfolioListView.swift */,
-				50867AF425F93DEB00144F65 /* OfferPortfolioListViewModel.swift */,
+				5078234325F9376D0003B794 /* OfferPortfolioView.swift */,
+				50867AF425F93DEB00144F65 /* OfferPortfolioViewModel.swift */,
 				5078235425F9391B0003B794 /* OfferPortfolioRowView.swift */,
 				50867AF825F97AB700144F65 /* OfferPortfolioRowViewModel.swift */,
 			);
 			path = "Offer Portfolio";
+			sourceTree = "<group>";
+		};
+		50B3082D25FE8160006E5BF7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5078233F25F9376D0003B794 /* AppDelegate.swift */,
+				5078234125F9376D0003B794 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		50B3082E25FE8172006E5BF7 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5078234525F9376E0003B794 /* Assets.xcassets */,
+				5078234A25F9376E0003B794 /* LaunchScreen.storyboard */,
+				5078234D25F9376E0003B794 /* Info.plist */,
+				5078234725F9376E0003B794 /* Preview Content */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 		50D7E4EA25FA49C6005F3853 /* Offer Detail */ = {
@@ -149,12 +174,11 @@
 			children = (
 				50D7E4EB25FA49FD005F3853 /* OfferDetailView.swift */,
 				500C9E2F25FA4B18003C0EC6 /* OfferDetailViewModel.swift */,
-				500C9E3525FA6168003C0EC6 /* OfferDetailImagesRowView.swift */,
-				500C9E3225FA535D003C0EC6 /* OfferDetailImagesRowViewModel.swift */,
-				5076AFC025FA834300E49C17 /* OfferDetailMainRowView.swift */,
-				5076AFBA25FA822E00E49C17 /* OfferDetailMainRowViewModel.swift */,
-				5076AFC525FA9C5800E49C17 /* OfferDetailPriceRowView.swift */,
-				5076AFBD25FA824D00E49C17 /* OfferDetailPriceRowViewModel.swift */,
+				500C9E3225FA535D003C0EC6 /* OfferDetailImageViewModel.swift */,
+				5076AFBA25FA822E00E49C17 /* OfferDetailMainViewModel.swift */,
+				5076AFBD25FA824D00E49C17 /* OfferDetailPriceViewModel.swift */,
+				5076AFC525FA9C5800E49C17 /* PriceRowView.swift */,
+				50B3082525FE7D93006E5BF7 /* ImageRowView.swift */,
 			);
 			path = "Offer Detail";
 			sourceTree = "<group>";
@@ -291,23 +315,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				50D7E4EC25FA49FD005F3853 /* OfferDetailView.swift in Sources */,
-				5076AFC625FA9C5800E49C17 /* OfferDetailPriceRowView.swift in Sources */,
+				5076AFC625FA9C5800E49C17 /* PriceRowView.swift in Sources */,
 				50867AF925F97AB700144F65 /* OfferPortfolioRowViewModel.swift in Sources */,
 				5078236125F93C1C0003B794 /* Parsing.swift in Sources */,
 				5078234025F9376D0003B794 /* AppDelegate.swift in Sources */,
-				50867AF525F93DEB00144F65 /* OfferPortfolioListViewModel.swift in Sources */,
+				50867AF525F93DEB00144F65 /* OfferPortfolioViewModel.swift in Sources */,
 				5078234225F9376D0003B794 /* SceneDelegate.swift in Sources */,
 				5078235925F93A7D0003B794 /* OfferModel.swift in Sources */,
 				5078236025F93C1C0003B794 /* OfferWebService.swift in Sources */,
 				5078235525F9391B0003B794 /* OfferPortfolioRowView.swift in Sources */,
-				5078234425F9376D0003B794 /* OfferPortfolioListView.swift in Sources */,
+				503C963225FE2CC4006CC8B0 /* View + Extensions.swift in Sources */,
+				5078234425F9376D0003B794 /* OfferPortfolioView.swift in Sources */,
 				500C9E3025FA4B18003C0EC6 /* OfferDetailViewModel.swift in Sources */,
 				5078236225F93C1C0003B794 /* OfferError.swift in Sources */,
-				5076AFBB25FA822E00E49C17 /* OfferDetailMainRowViewModel.swift in Sources */,
-				5076AFBE25FA824D00E49C17 /* OfferDetailPriceRowViewModel.swift in Sources */,
-				500C9E3325FA535D003C0EC6 /* OfferDetailImagesRowViewModel.swift in Sources */,
-				500C9E3625FA6168003C0EC6 /* OfferDetailImagesRowView.swift in Sources */,
-				5076AFC125FA834300E49C17 /* OfferDetailMainRowView.swift in Sources */,
+				50B3082625FE7D93006E5BF7 /* ImageRowView.swift in Sources */,
+				5076AFBB25FA822E00E49C17 /* OfferDetailMainViewModel.swift in Sources */,
+				5076AFBE25FA824D00E49C17 /* OfferDetailPriceViewModel.swift in Sources */,
+				500C9E3325FA535D003C0EC6 /* OfferDetailImageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,10 +472,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Cluno/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cluno/SupportFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = 7MBUBXKW3M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Cluno/Info.plist;
+				INFOPLIST_FILE = Cluno/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,10 +494,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Cluno/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cluno/SupportFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = 7MBUBXKW3M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Cluno/Info.plist;
+				INFOPLIST_FILE = Cluno/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
