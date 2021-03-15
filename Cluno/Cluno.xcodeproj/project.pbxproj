@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		500C9E3025FA4B18003C0EC6 /* OfferDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E2F25FA4B18003C0EC6 /* OfferDetailViewModel.swift */; };
 		500C9E3325FA535D003C0EC6 /* OfferDetailImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500C9E3225FA535D003C0EC6 /* OfferDetailImageViewModel.swift */; };
+		5025E9FE25FFA187007FC0D3 /* OfferEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5025E9FD25FFA187007FC0D3 /* OfferEndPoints.swift */; };
+		5025EA0425FFA1F2007FC0D3 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5025EA0325FFA1F2007FC0D3 /* DataService.swift */; };
+		5025EA0A25FFA2B6007FC0D3 /* OfferPortfolioDataServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5025EA0925FFA2B6007FC0D3 /* OfferPortfolioDataServiceMock.swift */; };
+		5025EA0E25FFB19E007FC0D3 /* OfferPortfolioMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 5025EA0D25FFB19E007FC0D3 /* OfferPortfolioMock.json */; };
+		5025EA1625FFB969007FC0D3 /* OfferDetailMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 5025EA1525FFB969007FC0D3 /* OfferDetailMock.json */; };
+		5025EA1A25FFB9AB007FC0D3 /* OfferDetailDataServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5025EA1925FFB9AB007FC0D3 /* OfferDetailDataServiceMock.swift */; };
 		503C963225FE2CC4006CC8B0 /* View + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503C963125FE2CC4006CC8B0 /* View + Extensions.swift */; };
 		5076AFBB25FA822E00E49C17 /* OfferDetailMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFBA25FA822E00E49C17 /* OfferDetailMainViewModel.swift */; };
 		5076AFBE25FA824D00E49C17 /* OfferDetailPriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076AFBD25FA824D00E49C17 /* OfferDetailPriceViewModel.swift */; };
@@ -26,16 +32,41 @@
 		5078236225F93C1C0003B794 /* OfferError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078235F25F93C1C0003B794 /* OfferError.swift */; };
 		50867AF525F93DEB00144F65 /* OfferPortfolioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50867AF425F93DEB00144F65 /* OfferPortfolioViewModel.swift */; };
 		50867AF925F97AB700144F65 /* OfferPortfolioRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50867AF825F97AB700144F65 /* OfferPortfolioRowViewModel.swift */; };
+		509B27F325FFBB3300ECBDB9 /* OfferPortfolioViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B27F225FFBB3300ECBDB9 /* OfferPortfolioViewModelTests.swift */; };
+		509B27FB25FFC59A00ECBDB9 /* OfferPortfolioRowViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B27FA25FFC59A00ECBDB9 /* OfferPortfolioRowViewModelTests.swift */; };
+		509B280125FFCC4700ECBDB9 /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B280025FFCC4700ECBDB9 /* SampleModel.swift */; };
+		509B280725FFCD0A00ECBDB9 /* OfferDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B280625FFCD0A00ECBDB9 /* OfferDetailViewModelTests.swift */; };
+		509B280B25FFD28E00ECBDB9 /* PriceRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B280A25FFD28E00ECBDB9 /* PriceRowViewModel.swift */; };
+		509B281125FFD5C800ECBDB9 /* OfferDetailImageViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B281025FFD5C800ECBDB9 /* OfferDetailImageViewModelTests.swift */; };
+		509B281525FFDE1200ECBDB9 /* OfferDetailMainViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B281425FFDE1200ECBDB9 /* OfferDetailMainViewModelTests.swift */; };
+		509B281925FFDEC500ECBDB9 /* OfferDetailPriceViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509B281825FFDEC500ECBDB9 /* OfferDetailPriceViewModelTests.swift */; };
 		50B3082625FE7D93006E5BF7 /* ImageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B3082525FE7D93006E5BF7 /* ImageRowView.swift */; };
+		50B3083825FE840C006E5BF7 /* OfferWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B3083725FE840C006E5BF7 /* OfferWebServiceTests.swift */; };
 		50D7E4EC25FA49FD005F3853 /* OfferDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D7E4EB25FA49FD005F3853 /* OfferDetailView.swift */; };
 		70F2DE39EC6F5345B6D8BC13 /* Pods_Cluno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D31F9FF4D285DB92BDA32AD /* Pods_Cluno.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50B3083A25FE840C006E5BF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5078233425F9376D0003B794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5078233B25F9376D0003B794;
+			remoteInfo = Cluno;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		17F98B2D12C49ACBF50131AD /* Pods-Cluno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cluno.release.xcconfig"; path = "Target Support Files/Pods-Cluno/Pods-Cluno.release.xcconfig"; sourceTree = "<group>"; };
 		1F8340647C279F5FE62219A7 /* Pods-Cluno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cluno.debug.xcconfig"; path = "Target Support Files/Pods-Cluno/Pods-Cluno.debug.xcconfig"; sourceTree = "<group>"; };
 		500C9E2F25FA4B18003C0EC6 /* OfferDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailViewModel.swift; sourceTree = "<group>"; };
 		500C9E3225FA535D003C0EC6 /* OfferDetailImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailImageViewModel.swift; sourceTree = "<group>"; };
+		5025E9FD25FFA187007FC0D3 /* OfferEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferEndPoints.swift; sourceTree = "<group>"; };
+		5025EA0325FFA1F2007FC0D3 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		5025EA0925FFA2B6007FC0D3 /* OfferPortfolioDataServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioDataServiceMock.swift; sourceTree = "<group>"; };
+		5025EA0D25FFB19E007FC0D3 /* OfferPortfolioMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OfferPortfolioMock.json; sourceTree = "<group>"; };
+		5025EA1525FFB969007FC0D3 /* OfferDetailMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OfferDetailMock.json; sourceTree = "<group>"; };
+		5025EA1925FFB9AB007FC0D3 /* OfferDetailDataServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailDataServiceMock.swift; sourceTree = "<group>"; };
 		503C963125FE2CC4006CC8B0 /* View + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extensions.swift"; sourceTree = "<group>"; };
 		5076AFBA25FA822E00E49C17 /* OfferDetailMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailMainViewModel.swift; sourceTree = "<group>"; };
 		5076AFBD25FA824D00E49C17 /* OfferDetailPriceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailPriceViewModel.swift; sourceTree = "<group>"; };
@@ -55,7 +86,18 @@
 		5078235F25F93C1C0003B794 /* OfferError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferError.swift; sourceTree = "<group>"; };
 		50867AF425F93DEB00144F65 /* OfferPortfolioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioViewModel.swift; sourceTree = "<group>"; };
 		50867AF825F97AB700144F65 /* OfferPortfolioRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioRowViewModel.swift; sourceTree = "<group>"; };
+		509B27F225FFBB3300ECBDB9 /* OfferPortfolioViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioViewModelTests.swift; sourceTree = "<group>"; };
+		509B27FA25FFC59A00ECBDB9 /* OfferPortfolioRowViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPortfolioRowViewModelTests.swift; sourceTree = "<group>"; };
+		509B280025FFCC4700ECBDB9 /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		509B280625FFCD0A00ECBDB9 /* OfferDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailViewModelTests.swift; sourceTree = "<group>"; };
+		509B280A25FFD28E00ECBDB9 /* PriceRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRowViewModel.swift; sourceTree = "<group>"; };
+		509B281025FFD5C800ECBDB9 /* OfferDetailImageViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailImageViewModelTests.swift; sourceTree = "<group>"; };
+		509B281425FFDE1200ECBDB9 /* OfferDetailMainViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailMainViewModelTests.swift; sourceTree = "<group>"; };
+		509B281825FFDEC500ECBDB9 /* OfferDetailPriceViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailPriceViewModelTests.swift; sourceTree = "<group>"; };
 		50B3082525FE7D93006E5BF7 /* ImageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRowView.swift; sourceTree = "<group>"; };
+		50B3083525FE840C006E5BF7 /* ClunoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClunoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B3083725FE840C006E5BF7 /* OfferWebServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferWebServiceTests.swift; sourceTree = "<group>"; };
+		50B3083925FE840C006E5BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50D7E4EB25FA49FD005F3853 /* OfferDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailView.swift; sourceTree = "<group>"; };
 		5D31F9FF4D285DB92BDA32AD /* Pods_Cluno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cluno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,13 +111,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50B3083225FE840C006E5BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		503C963025FE2CA5006CC8B0 /* Utilities */ = {
+		5025EA0125FFA1C8007FC0D3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				503C963125FE2CC4006CC8B0 /* View + Extensions.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5025EA0225FFA1CF007FC0D3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5025E9FD25FFA187007FC0D3 /* OfferEndPoints.swift */,
+				5078235F25F93C1C0003B794 /* OfferError.swift */,
+				5078235E25F93C1C0003B794 /* Parsing.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5025EA1F25FFBA7F007FC0D3 /* OfferWebService */ = {
+			isa = PBXGroup;
+			children = (
+				50B3083725FE840C006E5BF7 /* OfferWebServiceTests.swift */,
+				5025EA0925FFA2B6007FC0D3 /* OfferPortfolioDataServiceMock.swift */,
+				5025EA0D25FFB19E007FC0D3 /* OfferPortfolioMock.json */,
+				5025EA1925FFB9AB007FC0D3 /* OfferDetailDataServiceMock.swift */,
+				5025EA1525FFB969007FC0D3 /* OfferDetailMock.json */,
+			);
+			path = OfferWebService;
+			sourceTree = "<group>";
+		};
+		503C963025FE2CA5006CC8B0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5025EA0225FFA1CF007FC0D3 /* Service */,
+				5025EA0125FFA1C8007FC0D3 /* UI */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -84,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				5078233E25F9376D0003B794 /* Cluno */,
+				50B3083625FE840C006E5BF7 /* ClunoTests */,
 				5078233D25F9376D0003B794 /* Products */,
 				E76F57722CF4B09B328E7DCA /* Pods */,
 				84EC223097ECC6CE0138B1DD /* Frameworks */,
@@ -94,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				5078233C25F9376D0003B794 /* Cluno.app */,
+				50B3083525FE840C006E5BF7 /* ClunoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +213,8 @@
 		5078235C25F93BA20003B794 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				5078235F25F93C1C0003B794 /* OfferError.swift */,
 				5078235D25F93C1C0003B794 /* OfferWebService.swift */,
-				5078235E25F93C1C0003B794 /* Parsing.swift */,
+				5025EA0325FFA1F2007FC0D3 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -147,6 +228,42 @@
 				50867AF825F97AB700144F65 /* OfferPortfolioRowViewModel.swift */,
 			);
 			path = "Offer Portfolio";
+			sourceTree = "<group>";
+		};
+		509B27F125FFBB0E00ECBDB9 /* Offer Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				509B27F225FFBB3300ECBDB9 /* OfferPortfolioViewModelTests.swift */,
+				509B27FA25FFC59A00ECBDB9 /* OfferPortfolioRowViewModelTests.swift */,
+			);
+			path = "Offer Portfolio";
+			sourceTree = "<group>";
+		};
+		509B27FE25FFC92500ECBDB9 /* Offer Detail */ = {
+			isa = PBXGroup;
+			children = (
+				509B280625FFCD0A00ECBDB9 /* OfferDetailViewModelTests.swift */,
+				509B281025FFD5C800ECBDB9 /* OfferDetailImageViewModelTests.swift */,
+				509B281425FFDE1200ECBDB9 /* OfferDetailMainViewModelTests.swift */,
+				509B281825FFDEC500ECBDB9 /* OfferDetailPriceViewModelTests.swift */,
+			);
+			path = "Offer Detail";
+			sourceTree = "<group>";
+		};
+		509B27FF25FFCC3200ECBDB9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				509B280025FFCC4700ECBDB9 /* SampleModel.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		509B281C25FFE0AD00ECBDB9 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				50B3083925FE840C006E5BF7 /* Info.plist */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 		50B3082D25FE8160006E5BF7 /* Application */ = {
@@ -169,6 +286,18 @@
 			path = SupportFiles;
 			sourceTree = "<group>";
 		};
+		50B3083625FE840C006E5BF7 /* ClunoTests */ = {
+			isa = PBXGroup;
+			children = (
+				509B281C25FFE0AD00ECBDB9 /* SupportFiles */,
+				509B27FF25FFCC3200ECBDB9 /* Utilities */,
+				509B27FE25FFC92500ECBDB9 /* Offer Detail */,
+				509B27F125FFBB0E00ECBDB9 /* Offer Portfolio */,
+				5025EA1F25FFBA7F007FC0D3 /* OfferWebService */,
+			);
+			path = ClunoTests;
+			sourceTree = "<group>";
+		};
 		50D7E4EA25FA49C6005F3853 /* Offer Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +307,7 @@
 				5076AFBA25FA822E00E49C17 /* OfferDetailMainViewModel.swift */,
 				5076AFBD25FA824D00E49C17 /* OfferDetailPriceViewModel.swift */,
 				5076AFC525FA9C5800E49C17 /* PriceRowView.swift */,
+				509B280A25FFD28E00ECBDB9 /* PriceRowViewModel.swift */,
 				50B3082525FE7D93006E5BF7 /* ImageRowView.swift */,
 			);
 			path = "Offer Detail";
@@ -222,6 +352,24 @@
 			productReference = 5078233C25F9376D0003B794 /* Cluno.app */;
 			productType = "com.apple.product-type.application";
 		};
+		50B3083425FE840C006E5BF7 /* ClunoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B3083C25FE840C006E5BF7 /* Build configuration list for PBXNativeTarget "ClunoTests" */;
+			buildPhases = (
+				50B3083125FE840C006E5BF7 /* Sources */,
+				50B3083225FE840C006E5BF7 /* Frameworks */,
+				50B3083325FE840C006E5BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B3083B25FE840C006E5BF7 /* PBXTargetDependency */,
+			);
+			name = ClunoTests;
+			productName = ClunoTests;
+			productReference = 50B3083525FE840C006E5BF7 /* ClunoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -233,6 +381,10 @@
 				TargetAttributes = {
 					5078233B25F9376D0003B794 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					50B3083425FE840C006E5BF7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5078233B25F9376D0003B794;
 					};
 				};
 			};
@@ -250,6 +402,7 @@
 			projectRoot = "";
 			targets = (
 				5078233B25F9376D0003B794 /* Cluno */,
+				50B3083425FE840C006E5BF7 /* ClunoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,6 +415,15 @@
 				5078234C25F9376E0003B794 /* LaunchScreen.storyboard in Resources */,
 				5078234925F9376E0003B794 /* Preview Assets.xcassets in Resources */,
 				5078234625F9376E0003B794 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B3083325FE840C006E5BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5025EA0E25FFB19E007FC0D3 /* OfferPortfolioMock.json in Resources */,
+				5025EA1625FFB969007FC0D3 /* OfferDetailMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +481,7 @@
 				50867AF925F97AB700144F65 /* OfferPortfolioRowViewModel.swift in Sources */,
 				5078236125F93C1C0003B794 /* Parsing.swift in Sources */,
 				5078234025F9376D0003B794 /* AppDelegate.swift in Sources */,
+				5025E9FE25FFA187007FC0D3 /* OfferEndPoints.swift in Sources */,
 				50867AF525F93DEB00144F65 /* OfferPortfolioViewModel.swift in Sources */,
 				5078234225F9376D0003B794 /* SceneDelegate.swift in Sources */,
 				5078235925F93A7D0003B794 /* OfferModel.swift in Sources */,
@@ -332,10 +495,37 @@
 				5076AFBB25FA822E00E49C17 /* OfferDetailMainViewModel.swift in Sources */,
 				5076AFBE25FA824D00E49C17 /* OfferDetailPriceViewModel.swift in Sources */,
 				500C9E3325FA535D003C0EC6 /* OfferDetailImageViewModel.swift in Sources */,
+				509B280B25FFD28E00ECBDB9 /* PriceRowViewModel.swift in Sources */,
+				5025EA0425FFA1F2007FC0D3 /* DataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B3083125FE840C006E5BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B3083825FE840C006E5BF7 /* OfferWebServiceTests.swift in Sources */,
+				509B280125FFCC4700ECBDB9 /* SampleModel.swift in Sources */,
+				509B281525FFDE1200ECBDB9 /* OfferDetailMainViewModelTests.swift in Sources */,
+				509B280725FFCD0A00ECBDB9 /* OfferDetailViewModelTests.swift in Sources */,
+				5025EA1A25FFB9AB007FC0D3 /* OfferDetailDataServiceMock.swift in Sources */,
+				509B27FB25FFC59A00ECBDB9 /* OfferPortfolioRowViewModelTests.swift in Sources */,
+				509B281925FFDEC500ECBDB9 /* OfferDetailPriceViewModelTests.swift in Sources */,
+				5025EA0A25FFA2B6007FC0D3 /* OfferPortfolioDataServiceMock.swift in Sources */,
+				509B281125FFD5C800ECBDB9 /* OfferDetailImageViewModelTests.swift in Sources */,
+				509B27F325FFBB3300ECBDB9 /* OfferPortfolioViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50B3083B25FE840C006E5BF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5078233B25F9376D0003B794 /* Cluno */;
+			targetProxy = 50B3083A25FE840C006E5BF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5078234A25F9376E0003B794 /* LaunchScreen.storyboard */ = {
@@ -509,6 +699,46 @@
 			};
 			name = Release;
 		};
+		50B3083D25FE840C006E5BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MBUBXKW3M;
+				INFOPLIST_FILE = ClunoTests/SupportFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myProjects.ClunoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cluno.app/Cluno";
+			};
+			name = Debug;
+		};
+		50B3083E25FE840C006E5BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MBUBXKW3M;
+				INFOPLIST_FILE = ClunoTests/SupportFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myProjects.ClunoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cluno.app/Cluno";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -526,6 +756,15 @@
 			buildConfigurations = (
 				5078235125F9376E0003B794 /* Debug */,
 				5078235225F9376E0003B794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B3083C25FE840C006E5BF7 /* Build configuration list for PBXNativeTarget "ClunoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B3083D25FE840C006E5BF7 /* Debug */,
+				50B3083E25FE840C006E5BF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

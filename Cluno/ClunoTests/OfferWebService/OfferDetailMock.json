@@ -1,0 +1,166 @@
+{
+    "id": "296",
+    "available": true,
+    "isHot": false,
+    "portfolio": "0001",
+    "segment": "1A",
+    "legal": [
+        "<sup>*</sup> Im monatlichen Paketpreis sind folgende Leistungen inklusive: KM-Paket, KFZ-Zulassung, KFZ-Haftpflichtversicherung, Teil- und Vollkaskoversicherung mit Selbstbehalt, KFZ-Steuer, Rundfunkgebühren, Wartungs- und Verschleißreparaturen, wintertaugliche Bereifung, Inspektionen und Hauptuntersuchungen. Im Mobilitätspaket nicht enthalten sind Kosten für folgende Betriebsmittel: Kraftstoffe, Strom, AdBlue, Scheibenwaschwasser sowie Motoröl.",
+        "<sup>1</sup> Bei verbindlich geschlossener Buchungsvereinbarung über ein Mobilitätspaket durch einen privaten oder gewerblichen Neukunden gemäß den zum Zeitpunkt der Buchung geltenden Allgemeinen Geschäftsbedingungen der Cluno GmbH („<strong>Buchung</strong>“) entfällt die sonst anfallende einmalige Startgebühr von 299,00 EUR inkl. Umsatzsteuer. Als Neukunde gilt, wer in der Vergangenheit keine Buchungsvereinbarung bei der Cluno GmbH abgeschlossen hat.",
+        "<sup>2</sup> Der Wertgutschein in dargestellter Höhe gilt ausschließlich für Fahrzeuge die entsprechend gekennzeichnet sind. Es gelten folgende <a href=\"https://www.cluno.com/de/teilnahmebedingungen-wertgutscheine/\">Bedingungen</a>.",
+        "<sup>3</sup> Die Brutto-Monatsgebühr reduziert sich um 100%, jedoch höchstens um EUR 400 pro Monat. <a href=\"https://image.mail.cluno.com/lib/fe39117075640474711474/m/1/47c82412-3b48-4f7f-9649-2cbfc6fddafd.pdf\">Alle Teilnahmebedingungen</a>.",
+        "<sup>4</sup> Die Brutto-Monatsgebühr reduziert sich um 100%, jedoch höchstens um EUR 400 pro Monat. <a href=\"https://image.mail.cluno.com/lib/fe39117075640474711474/m/1/47c82412-3b48-4f7f-9649-2cbfc6fddafd.pdf\">Alle Teilnahmebedingungen</a>.",
+        "<sup>5</sup> Die Brutto-Monatsgebühr reduziert sich um 100%, jedoch höchstens um EUR 300 pro Monat. <a href=\"https://image.mail.cluno.com/lib/fe39117075640474711474/m/1/47c82412-3b48-4f7f-9649-2cbfc6fddafd.pdf\">Alle Teilnahmebedingungen</a>."
+    ],
+    "isEnvironmentallyFriendly": true,
+    "hasTowBar": false,
+    "isAvailableAtShortNotice": false,
+    "detailUrl": "/de/portfolio/fiat-500-lounge-mild-hybrid-296/",
+    "estimatedDeliveryTime": "in ca. 3-4 Monaten",
+    "earliestAvailabilityDays": 91,
+    "car": {
+        "make": "Fiat",
+        "model": "500",
+        "version": "Lounge Mild-Hybrid",
+        "ccm": "1,0",
+        "kw": 51,
+        "ps": 70,
+        "engine": "",
+        "fueltype": "Benzin",
+        "fuel": {
+            "type": "Mild-Hybrid",
+            "subtype": "Benzin"
+        },
+        "drive": "Vorderradantrieb",
+        "doors": "3",
+        "gearingType": "Schaltgetriebe",
+        "offerExtColor": "Weiß",
+        "equipmentDetails": [
+            "Alufelgen",
+            "Bluetooth",
+            "Einparkhilfe hinten",
+            "Klimaanlage",
+            "Navi via App",
+            "Sound System",
+            "Tempomat"
+        ],
+        "environment": {
+            "consumptionCity": 4.7,
+            "consumptionCombined": 3.9,
+            "consumptionCountry": 3.4,
+            "emissionClass": "Euro 6",
+            "emissionCO2": 88,
+            "emissionLabel": "A",
+            "emissionLabelChart": {
+                "png": "https://assets.cluno.com/offer/environment/emission-label-a.png",
+                "svg": "https://assets.cluno.com/offer/environment/emission-label-a.svg"
+            },
+            "underline": "Verbrauch: innerorts:  4.7, außerorts: 3.4, kombiniert: 3.9\n(lt. Herstellerangaben in l/100 km nach VO (EG) 715/2007 und VO (EG) 692/2008 in der jeweils geltenden Fassung)\nCO2-Emissionswert: 88 g/km (komb. lt. Herstellerangaben)\nCO2-Effizienzklasse: A\nWeitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen CO2-Emissionenneuer PKW können dem \"Leitfaden über den Kraftstoffverbrauch und die CO2-Emissionen neuer PKW\" entnommen werden, der an allen Verkaufsstellen und bei der \"Deutschen Automobil Treuhand GmbH\" unentgeltlich erhältlich ist unter www.dat.de"
+        }
+    },
+    "teaser": {
+        "title": "Fiat 500 Lounge Mild Hybrid",
+        "subtitle": "Cluno Auto Abo - die clevere Alternative",
+        "ribbon": "",
+        "teaserImage": "https://assets.cluno.com/2021/03/DES-310.jpg",
+        "equipmentHighlights": []
+    },
+    "images": [
+        {
+            "width": 665,
+            "title": "Fiat 500 Lounge Mild Hybrid",
+            "src": "https://assets.cluno.com/2021/03/DES-310.jpg",
+            "height": 304
+        },
+        {
+            "width": 665,
+            "title": "Fiat 500 Lounge Mild Hybrid",
+            "src": "https://assets.cluno.com/2020/09/296_1_1.jpg",
+            "height": 304
+        },
+        {
+            "width": 665,
+            "title": "Fiat 500 Lounge Mild Hybrid",
+            "src": "https://assets.cluno.com/2020/09/296_2_2.jpg",
+            "height": 304
+        },
+        {
+            "width": 665,
+            "title": "Fiat 500 Lounge Mild Hybrid",
+            "src": "https://assets.cluno.com/2020/09/296_3_3.jpg",
+            "height": 304
+        },
+        {
+            "width": 665,
+            "title": "Fiat 500 Lounge Mild Hybrid",
+            "src": "https://assets.cluno.com/2020/09/296_4.jpg",
+            "height": 304
+        },
+        {
+            "width": 665,
+            "title": "Fiat 500 Lounge Mild Hybrid",
+            "src": "https://assets.cluno.com/2020/09/296_5_5.jpg",
+            "height": 304
+        }
+    ],
+    "labels": [
+        "Kleinwagen"
+    ],
+    "conditions": {
+        "minimumAge": 23,
+        "maximumAge": 73,
+        "minLicenseDuration": 3
+    },
+    "pricing": {
+        "price": 249,
+        "lowestPrice": 189,
+        "lineItems": [
+            {
+                "name": "OLI-00000198",
+                "duration": "6",
+                "price": 249
+            },
+            {
+                "name": "OLI-00000199",
+                "duration": "12",
+                "price": 199
+            },
+            {
+                "name": "OLI-00000204",
+                "duration": "18",
+                "price": 189
+            }
+        ],
+        "startingFee": 0,
+        "deliveryFee": 0,
+        "note": "pro Monat zzgl.\n0 EUR Startgebühr für Neukunden",
+        "underline": "zzgl. 0 € einmaliger Cluno-Startgebühr für Neukunden\nEin Preis – alles drin. Fahre so lange du willst. Umsteigen oder aussteigen jederzeit möglich mit einer Frist von 3 Monaten (Mindestlaufzeit 6 Monate je Fahrzeug).\nAlle Preise inklusive MwSt.",
+        "term": "Umsteigen oder aussteigen jederzeit möglich mit einer Frist von 3 Monaten (Mindestlaufzeit 6 Monate je Fahrzeug).",
+        "currencyIsoCode": "EUR",
+        "currencySymbol": "€",
+        "excessKilometers": 0.2,
+        "monthlyExcessKilometers": 500,
+        "unusedKilometers": 0,
+        "includedAnnualKilometers": 12000,
+        "deductiblePartialCover": 500,
+        "deductibleFullyComprehensive": 1000,
+        "bookableOptions": [
+            {
+                "name": "Wunschfarbe Weiß",
+                "price": 0,
+                "selected": false
+            },
+            {
+                "name": "Wunschfarbe Grau",
+                "price": 0,
+                "selected": false
+            },
+            {
+                "name": "Wunschfarbe Rot",
+                "price": 0,
+                "selected": false
+            }
+        ]
+    },
+    "bodyType": "Kleinwagen"
+}

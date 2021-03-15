@@ -15,7 +15,7 @@ final class OfferDetailViewModel: ObservableObject {
     
     private var webService: OfferDetailWebServiceProtocol
     private var disposables = Set<AnyCancellable>()
-    var offerId: String
+    private var offerId: String
     
     init(webService: OfferDetailWebServiceProtocol = OfferWebService(), offerId: String) {
         self.webService = webService
@@ -61,6 +61,6 @@ final class OfferDetailViewModel: ObservableObject {
     }
     
     func setSelectedPrice(at index: Int){
-        priceViewModel?.setSelectRow(at: index)
+        priceViewModel?.setSelectedRow(at: index)
     }
 }

@@ -17,27 +17,27 @@ protocol OfferDetailWebServiceProtocol {
 }
 
 final class OfferWebService {
-    private var session: URLSession
+    private var dataService: DataServiceProtocol
     
-    init(session: URLSession = .shared) {
-        self.session = session
+    init(dataService: DataServiceProtocol = DataService()) {
+        self.dataService = dataService
     }
 }
 
 extension OfferWebService: OfferPortfolioWebServiceProtocol, OfferDetailWebServiceProtocol {
-    private func fetchData<T>(for api: OfferEndPoints) -> AnyPublisher<T, OfferError> where T: Decodable {
+    private func fetchData<T>(for endPoint: OfferEndPoints) -> AnyPublisher<T, OfferError> where T: Decodable {
         
-        guard let url = api.url else {
+        guard let url = endPoint.url else {
             let error = OfferError.network(description: "Couldn't create URL")
             return Fail(error: error).eraseToAnyPublisher()
         }
         
-        return session.dataTaskPublisher(for: url)
+        return dataService.fetchData(for: url)
             .mapError { error in
-              .network(description: error.localizedDescription)
+                .network(description: error.localizedDescription)
             }
             .flatMap(maxPublishers: .max(1)) { pair in
-              decode(pair.data)
+                decode(pair.data)
             }
             .eraseToAnyPublisher()
     }
@@ -50,38 +50,3 @@ extension OfferWebService: OfferPortfolioWebServiceProtocol, OfferDetailWebServi
         return fetchData(for: .offer(id: id))
     }
 }
-
-private enum OfferEndPoints{
-    case offerPortfolios
-    case offer(id: String)
-    
-    private var scheme: String {
-        return "https"
-    }
-    
-    private var host: String {
-        return "api.cluno.com"
-    }
-    
-    private var basePath: String {
-        return "/offerservice/v1/offer/"
-    }
-    
-    var url: URL? {
-        var components = URLComponents()
-        components.scheme = scheme
-        components.host = host
-        
-        switch self {
-        case .offerPortfolios:
-            components.path = basePath + "query"
-            return components.url
-        case let .offer(id: id):
-            components.path = basePath + id
-            return components.url
-        }
-    }
-}
-
-
-

@@ -15,6 +15,6 @@ struct OfferDetailMainViewModel {
     init(offerDetail: OfferDetail){
         self.model = offerDetail.car.make + " " + offerDetail.car.model
         self.version = offerDetail.car.version
-        self.deliveryTime = "Verfügbar" + offerDetail.estimatedDeliveryTime
+        self.deliveryTime = "Verfügbar " + offerDetail.estimatedDeliveryTime
     }
 }

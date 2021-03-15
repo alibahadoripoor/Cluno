@@ -115,9 +115,4 @@ extension OfferDetailView{
     }
 }
 
-struct OfferDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        OfferDetailView(viewModel: OfferDetailViewModel(offerId: "1"))
-    }
-}
 

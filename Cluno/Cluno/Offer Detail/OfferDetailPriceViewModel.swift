@@ -34,16 +34,10 @@ struct OfferDetailPriceViewModel {
         return priceRows[selectedRow]
     }
     
-    mutating func setSelectRow(at index: Int){
+    mutating func setSelectedRow(at index: Int){
         guard let selectedRow = selectedRow else { return }
         priceRows[selectedRow].isSelected = false
         priceRows[index].isSelected = true
         self.selectedRow = index
     }
-}
-
-struct PriceRowViewModel {
-    var duration: String
-    var price: String
-    var isSelected: Bool
 }
