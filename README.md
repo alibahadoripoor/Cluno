@@ -9,7 +9,7 @@ In the main view, we can see a list of Cluno's Offer Portfolios.
 
 By selecting every offer we will move to the Offer Details view, where we can see and chose the related prices.
 
-## Sketch File
+## Figma File
 https://www.figma.com/file/wxURHec7uc8mq0TlnnDPLw/Cluno?node-id=0%3A1
 
 ## Run
