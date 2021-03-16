@@ -9,6 +9,9 @@ In the main view, we can see a list of Cluno's Offer Portfolios.
 
 By selecting every offer we will move to the Offer Details view, where we can see and chose the related prices.
 
+## Sketch File
+https://www.figma.com/file/wxURHec7uc8mq0TlnnDPLw/Cluno?node-id=0%3A1
+
 ## Run
 To run please open `Cluno.xcworkspace` chose device or simulator and run.
 I've kept `Pods` directory to remove the hassle with pod installation etc.
